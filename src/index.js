@@ -6,7 +6,7 @@ const Provider = require('react-redux').Provider;
 const App = require('./containers/App');
 const configureStore = require('./store/configureStore');
 
-const store = configureStore()
+const store = configureStore();
 
 
 render(

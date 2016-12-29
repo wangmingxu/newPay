@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
-import { bindActionCreators } from 'redux'
-import { connect } from 'react-redux'
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
 import Header from '../components/Header';
 import Content from '../components/Content';
 import * as Actions from '../actions';
