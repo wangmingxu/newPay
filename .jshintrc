@@ -8,7 +8,7 @@
     "latedef": "nofunc",
     "newcap": true,
     "noarg": true,
-    "strict": true,
+    "strict": false,
     "maxparams": 4,
     "maxdepth": 4,
     "maxcomplexity": true,
