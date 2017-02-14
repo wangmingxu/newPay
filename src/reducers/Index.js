@@ -1,10 +1,10 @@
 import {combineReducers} from 'redux';
-import todos from './todos';
-import {OrderInfo} from './orderInfo';
+import {orderInfo} from './orderInfo';
+import {channels} from './channels';
 
 const rootReducer = combineReducers({
-    todos,
-    OrderInfo
+    orderInfo,
+    channels
 });
 
 export default rootReducer;

@@ -1,0 +1,640 @@
+.btr-middle-container {
+    width: 1200px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+}
+
+.toOldPay {
+    text-align: right;
+    width: 100%;
+    color: #666666;
+    font-size: 13px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.orderInfo {
+    padding: 0px 12px;
+    background-color: #f5f5f5;
+    margin-bottom: 25px;
+}
+
+.orderInfo .payInfo {
+    overflow: hidden;
+    padding: 10px;
+    border-bottom: 1px dashed #b3b3b3;
+}
+
+.orderInfo .payInfo .left {
+    float: left;
+    line-height: 26px;
+}
+
+.payInfo .left .paySs {
+    font-size: 15px;
+    color: #111111;
+    padding-left: 25px;
+    background: url(../img/checkbox.png) no-repeat;
+    background-position: left 3px;
+}
+
+.payInfo .left .payTime {
+    color: #333333;
+    font-size: 13px;
+}
+
+.payInfo .left .paySs .orderNo, .payInfo .left .payTime span {
+    color: #e60012;
+}
+
+.orderInfo .payInfo .right {
+    float: right;
+    color: #111111;
+    font-size: 14px;
+}
+
+.orderInfo .payInfo .right .num {
+    color: #e60012;
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+.contactInfo {
+    padding: 10px
+}
+
+.contactInfo .line {
+    color: #666666;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.contactInfo .line:last-of-type {
+    margin-bottom: 0px;
+}
+
+.QPB {
+    line-height: 25px;
+    font-size: 14px;
+    color: #666666;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.QPB .use_qpb {
+    display: inline-block;
+    padding-left: 25px;
+    background: url(../img/checkbox.png) no-repeat;
+    background-position: left -165px;
+    cursor: pointer;
+    background:inherit\0;
+    padding-left: 0px\0;
+}
+
+input[type='checkbox']{
+    display: inline-block\0;
+}
+
+.QPB input:checked+.use_qpb {
+    background-position: left -252px;
+}
+
+.QPB .no_qpb {
+    display: inline-block;
+    padding-left: 25px;
+    background: url(../img/checkbox.png) no-repeat;
+    background-position: left -82px;
+    cursor: not-allowed;
+}
+
+.payTypeList {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.payTypeList .payTypeItem {
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+.payTypeList .payTypeItem label {
+    padding-left: 50px;
+    display: block;
+    clear: both;
+    cursor: pointer;
+    background: url(../img/checkbox.png) no-repeat;
+    background-position: 10px -404px;
+    height: 60px;
+}
+
+/*.payTypeList .payTypeItem input:checked+label,*/
+.payTypeList .payTypeItem label.checked {
+    background-position: 10px -319px;
+}
+
+.payTypeList .payTypeItem .name {
+    font-size: 15px;
+    color: #111111;
+    width: 150px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.payTypeList .payTypeItem .recommend {
+    border: 1px solid #e60012;
+    color: #e60012;
+    font-size: 13px;
+    padding: 0px 5px;
+    margin-left: 5px;
+}
+
+.payTypeList .jinling .name {
+    padding-left: 30px;
+    background: url(../img/payType.png) no-repeat;
+    background-position: -5px 21px;
+}
+
+.payTypeList .jinling a{
+    color: #e60012;
+    text-decoration: underline;
+}
+
+.payTypeList .kuaijie .name {
+    padding-left: 30px;
+    background: url(../img/payType.png) no-repeat;
+    background-position: -5px -46px;
+}
+
+.payTypeList .wangyin .name {
+    padding-left: 30px;
+    background: url(../img/payType.png) no-repeat;
+    background-position: -5px -112px;
+}
+
+.payTypeList .wangyinB2B .name {
+    padding-left: 30px;
+    background: url(../img/payType.png) no-repeat;
+    background-position: -5px -196px;
+}
+
+.payTypeList .zhifubao .name {
+    padding-left: 30px;
+    background: url(../img/payType.png) no-repeat;
+    background-position: -5px -285px;
+}
+
+.payTypeList .payTypeItem .payTypeInfo {
+    font-size: 13px;
+    color: #666666;
+    float: left;
+    margin-right: 20px;
+}
+
+.payTypeList .payTypeItem .payTypeInfo span {
+    margin-right: 22px;
+}
+
+.payTypeList .payTypeItem .payTypeInfo span:last-of-type {
+    margin-right: 0px;
+}
+
+.payTypeList .payTypeItem .payAmount {
+    float: right;
+    margin-right: 18px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.payTypeList .payTypeItem .payAmount .num {
+    color: #e60012;
+    margin: 0px 5px;
+}
+
+.selectCardBox {
+    border: 1px solid #e60012;
+    width: 510px;
+    line-height: 34px;
+    float: left;
+    margin-top: 12px;
+    margin-right: 15px;
+    font-size: 13px;
+    position: relative;
+}
+
+.selectCardBox .selectedCard{
+  background: url("../img/checkbox.png") no-repeat;
+  background-position: right -625px;
+}
+
+.selectCardBox .bankIcon{
+  width: 35px;
+  height: 34px;
+  float: left;
+  display: block;
+  margin-right: 5px;
+  background: url(../img/bankIcon.png) no-repeat;
+}
+
+.selectCardBox .yjzfIcon{
+  width: 35px;
+  height: 34px;
+  float: left;
+  display: block;
+  margin-right: 5px;
+  background: url(../img/payType.png) no-repeat;
+  background-position: 3px -59px;
+}
+
+/*中国光大银行*/
+.selectCardBox .bank-CEB{
+  background-position: left -306px;
+}
+/*工商银行*/
+.selectCardBox .bank-ICBC{
+  background-position: left -476px;
+}
+/*招商银行*/
+.selectCardBox .bank-CMBCHINA{
+  background-position: 0px -442px;
+}
+/*建设银行*/
+.selectCardBox .bank-CCB{
+  background-position: left -34px;
+}
+/*农业银行*/
+.selectCardBox .bank-ABC{
+  background-position: 0px -374px;
+}
+/*交通银行*/
+.selectCardBox .bank-BOCO{
+  background-position: 0px 0px;
+}
+/*广发银行*/
+.selectCardBox .bank-GDB{
+  background-position: left -136px;
+}
+/*中国银行*/
+  .selectCardBox .bank-BOC{
+  background-position: 0px -272px;
+}
+/*中国民生银行*/
+.selectCardBox .bank-CMBC{
+  background-position: 0px -102px;
+}
+/*兴业银行*/
+.selectCardBox .bank-CIB{
+  background-position: 0px -238px;
+}
+/*中国邮政储蓄银行*/
+.selectCardBox .bank-POST{
+  background-position: 0px -170px;
+}
+/*中信银行*/
+.selectCardBox .bank-ECITIC{
+  background-position: 0px -408px;
+}
+/*浦发银行*/
+.selectCardBox .bank-SPDB{
+  background-position: 0px -204px;
+}
+/*北京银行*/
+.selectCardBox .bank-BCCB{
+  background-position: 0px -510px;
+}
+/*上海农商银行*/
+.selectCardBox .bank-SPABANK{
+  background-position: -2px -278px;
+}
+/*上海银行*/
+.selectCardBox .bank-SHB{
+  background-position: 0px -544px;
+}
+/*华夏银行*/
+.selectCardBox .bank-HXB{
+  background-position: 0px -340px;
+}
+/*平安银行*/
+.selectCardBox .bank-PINGANBANK{
+  background-position: 0px -68px;
+}
+
+.selectCardBox .cardList{
+  position: absolute;
+  top: 35px;
+  left: 0px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.selectCardBox .cardList .cardItem:hover{
+  background-color: #dddddd;
+}
+
+.selectCardBox .bank_name{
+  margin-right: 20px;
+  color: #333333;
+}
+
+.selectCardBox .card_type{
+  margin-right: 10px;
+  color: #333333;
+}
+
+.selectCardBox .limit{
+  color: #999999;
+}
+
+.payTypeList .payTypeItem .bankList{
+  border-top: 1px dashed #b3b3b3;
+  padding-top: 20px;
+  padding-left: 20px;
+  overflow: hidden;
+  clear: both;
+}
+
+.payTypeList .payTypeItem .bankList .bankItem{
+  width: 170px;
+  height: 44px;
+  box-sizing: border-box;
+  border: 1px solid #dfdfdf;
+  margin-right: 22px;
+  margin-bottom: 15px;
+  float: left;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.payTypeList .payTypeItem .bankList .checkItem{
+  background: url(../img/checkbox.png) no-repeat;
+  background-position: 154px -496px;
+  background-color: #fff;
+}
+
+.bankList .bankImg{
+  width: 100%;
+  height: 100%;
+  background: url(../img/bankList.png) no-repeat;
+}
+/*中国光大银行*/
+.bankList .bank-CEB{
+  background-position: left 5px;
+}
+/*工商银行*/
+.bankList .bank-ICBC{
+  background-position: left -158px;
+}
+/*招商银行*/
+.bankList .bank-CMBCHINA{
+  background-position: 10px -752px;
+}
+/*建设银行*/
+.bankList .bank-CCB{
+  background-position: left -863px;
+}
+/*农业银行*/
+.bankList .bank-ABC{
+  background-position: 5px -47px;
+}
+/*交通银行*/
+.bankList .bank-BOCO{
+  background-position: 5px -810px;
+}
+/*广发银行*/
+.bankList .bank-GDB{
+  background-position: left -219px;
+}
+/*中国银行*/
+.bankList .bank-BOC{
+  background-position: 15px -922px;
+}
+/*中国民生银行*/
+.bankList .bank-CMBC{
+  background-position: 5px -695px;
+}
+/*兴业银行*/
+.bankList .bank-CIB{
+  background-position: 5px -393px;
+}
+/*中国邮政储蓄银行*/
+.bankList .bank-POST{
+  background-position: -5px -518px;
+}
+/*中信银行*/
+.bankList .bank-ECITIC{
+  background-position: 14px -102px;
+}
+/*浦发银行*/
+.bankList .bank-SPDB{
+  background-position: 5px -579px;
+}
+/*北京银行*/
+.bankList .bank-BCCB{
+  background-position: 5px -334px;
+}
+/*上海农商银行*/
+.bankList .bank-SPABANK{
+  background-position: -2px -278px;
+}
+/*上海银行*/
+.bankList .bank-SHB{
+  background-position: 10px -642px;
+}
+/*华夏银行*/
+.bankList .bank-HXB{
+  background-position: 0px -456px;
+}
+/*深圳发展银行*/
+.bankList .bank-SDB{
+  box-sizing: border-box;
+  padding-right: 15px;
+  background-clip: content-box;
+  background-position: -5px -996px;
+}
+/*平安银行*/
+.bankList .bank-PINGANBANK{
+  background-position: -4px -277px;
+}
+.payTypeList .addCard {
+    float: left;
+    width: 105px;
+    line-height: 35px;
+    text-align: center;
+    color: #e60012;
+    border: 1px solid #e60012;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.payTypeList .other_type {
+    color: #eb6c06;
+    border: 1px solid #eb6c06;
+    width: 135px;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px 0px 20px 20px;
+}
+
+.kefuEntrance {
+    color: #666666;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.ensurePay {
+    width: 280px;
+    line-height: 45px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    margin: 10px auto 0px;
+    background-color: #e60012;
+    font-size: 16px;
+}
+
+.common_modal .closeBtn {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 35px;
+    height: 35px;
+    -webkit-transform: translate(1px, -1px);
+    transform: translate(1px, -1px);
+    background: url(../img/modal.png) no-repeat;
+    background-position: left top;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.common_modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    background-color: #FFF;
+    z-index: 2000;
+    border-radius: 5px;
+    line-height: 29px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.comfirm_modal {
+    margin-left: -244px;
+    margin-top: -117px;
+    width: 488px;
+    height: 234px;
+    padding: 20px 38px 28px 38px;
+}
+
+.comfirm_modal .title {
+    color: #333333;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 28px;
+    line-height: 34px;
+}
+
+.comfirm_modal .tipContent {
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+.comfirm_modal .confirmIcon{
+  padding-left: 35px;
+  display: inline-block;
+  background: url(../img/modal.png) no-repeat;
+  background-position: left -112px;
+}
+
+.comfirm_modal .btn {
+    line-height: 48px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 3px;
+    width: 188px;
+    cursor: pointer;
+}
+
+.comfirm_modal .cancel {
+    float: left;
+    color: #e60012;
+    border: 1px solid #e60012;
+}
+
+.comfirm_modal .ensure {
+    float: right;
+    color: #fff;
+    background-color: #e60012;
+}
+
+.custom_modal {
+    margin-left: -255px;
+    margin-top: -230px;
+    width: 510px;
+    height: 460px;
+    padding: 20px 50px 30px 50px;
+    box-sizing: border-box;
+}
+
+.custom_modal .title {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 26px;
+    text-align: center;
+}
+
+.custom_modal .iptItem {
+    overflow: hidden;
+    border: 1px solid #cfcfcf;
+    box-sizing: border-box;
+    line-height: 50px;
+}
+
+.custom_modal .iptItem .iptTit {
+    background-color: #eeeeee;
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+}
+
+.custom_modal .iptItem .iptBox {
+    width: 74%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.custom_modal .iptItem .iptBox input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.custom_modal .iptError {
+    line-height: 20px;
+    color: #e60012;
+    width: 100%;
+    height: 20px;
+}
+
+.custom_modal .ensureAddCard {
+    margin: 10px auto 0px;
+    width: 350px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #e60012;
+    border-radius: 4px;
+}

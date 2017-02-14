@@ -4,8 +4,9 @@ import OrderInfo from '../components/OrderInfo';
 const mapStateToProps = (
   state
 ) => {
+  const orderInfo = state.orderInfo;
   return {
-    OrderInfo:state.OrderInfo
+    orderInfo
   };
 };
 

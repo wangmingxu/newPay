@@ -22,8 +22,8 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.get('/orderInfo', function(req, res) {
-    res.sendFile(path.join(__dirname, 'src/json/orderInfo.json'));
+app.get('/payInfo', function(req, res) {
+    res.sendFile(path.join(__dirname, 'src/json/payInfo.json'));
 });
 
 app.listen(3000, 'localhost', function(err) {

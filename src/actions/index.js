@@ -1,19 +1,20 @@
 import * as types from '../constants/actionTypes';
 
-export function addTodo(text) {
-    return {type: types.ADD_TODO, text};
-}
-
-export function completeTodo(id) {
-    return {type: types.COMPLETE_TODO, id};
-}
-
 export function initPage() {
     return dispatch => {
-        return fetch('http://localhost:3000/orderInfo').then(response => response.json()).then(json => dispatch(setOrderInfo(json)));
+        return fetch('http://localhost:3000/payInfo')
+        .then(response => response.json())
+        .then(json => {
+          dispatch(setOrderInfo(json.model.orderInfo));
+          dispatch(setChannels(json.model.channels));
+        });
     };
 }
 
-function setOrderInfo(orderDTO) {
-    return {type: types.SET_ORDER_INFO, orderDTO};
+function setOrderInfo(orderInfo) {
+    return {type: types.SET_ORDER_INFO, orderInfo};
+}
+
+function setChannels(channels) {
+    return {type: types.SET_CHANNELS, channels};
 }
