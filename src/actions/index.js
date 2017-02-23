@@ -18,3 +18,11 @@ function setOrderInfo(orderInfo) {
 function setChannels(channels) {
     return {type: types.SET_CHANNELS, channels};
 }
+
+export function toggleIsBalance(isBalance) {
+    return {type: types.TOGGLE_ISBALANCE, isBalance};
+}
+
+export function checkChannel(channel) {
+    return {type: types.CHECK_CHANNEL, channel};
+}

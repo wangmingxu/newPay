@@ -1,2 +1,4 @@
 export const SET_ORDER_INFO = 'SET_ORDER_INFO';
 export const SET_CHANNELS = 'SET_CHANNELS';
+export const TOGGLE_ISBALANCE = 'TOGGLE_ISBALANCE';
+export const CHECK_CHANNEL = 'CHECK_CHANNEL';

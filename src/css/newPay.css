@@ -1,3 +1,7 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
 .btr-middle-container {
     width: 1200px;
     letter-spacing: 1px;
@@ -82,7 +86,7 @@
     margin-bottom: 5px;
 }
 
-.QPB .use_qpb {
+/*.QPB .use_qpb {
     display: inline-block;
     padding-left: 25px;
     background: url(../img/checkbox.png) no-repeat;
@@ -90,7 +94,7 @@
     cursor: pointer;
     background:inherit\0;
     padding-left: 0px\0;
-}
+}*/
 
 input[type='checkbox']{
     display: inline-block\0;
@@ -194,12 +198,8 @@ input[type='checkbox']{
     margin-right: 20px;
 }
 
-.payTypeList .payTypeItem .payTypeInfo span {
+.payTypeList .payTypeItem .payTypeInfo .item {
     margin-right: 22px;
-}
-
-.payTypeList .payTypeItem .payTypeInfo span:last-of-type {
-    margin-right: 0px;
 }
 
 .payTypeList .payTypeItem .payAmount {
@@ -637,4 +637,7 @@ input[type='checkbox']{
     cursor: pointer;
     background-color: #e60012;
     border-radius: 4px;
+}
+.hide{
+  display: none;
 }
