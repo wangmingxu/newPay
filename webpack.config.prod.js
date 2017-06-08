@@ -29,6 +29,14 @@ module.exports = {
       test: /\.js$/,
       exclude: /node_modules/,
       loaders: ['babel-loader']
+    },
+    {
+      test:/\.css$/,
+      loader:'style-loader!css-loader'
+    },
+    {
+      test: /\.(png|jpg)$/,
+      loader: 'url-loader?limit=8192'
     }],
     postLoaders: [
       {
