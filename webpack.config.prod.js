@@ -1,5 +1,6 @@
 var path = require('path');
 var webpack = require('webpack');
+var es3ifyPlugin = require('es3ify-webpack-plugin');
 
 module.exports = {
   devtool: 'source-map',
@@ -18,9 +19,11 @@ module.exports = {
         'NODE_ENV': JSON.stringify('production')
       }
     }),
+    new es3ifyPlugin(),
     new webpack.optimize.UglifyJsPlugin({
       compressor: {
         warnings: false,
+        screw_ie8: false
       }
     })
   ],
@@ -38,11 +41,14 @@ module.exports = {
       test: /\.(png|jpg)$/,
       loader: 'url-loader?limit=8192'
     }],
-    postLoaders: [
-      {
-        test: /\.js$/,
-        loaders: ['es3ify-loader']
-      }
-    ]
-  }
+    // postLoaders: [
+    //   {
+    //     test: /\.js$/,
+    //     loaders: ['es3ify-loader','uglify-loader']
+    //   }
+    // ]
+  },
+  // 'uglify-loader': {
+  //     mangle: false,
+  // }
 };
